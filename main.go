@@ -1,0 +1,22 @@
+//Your first Go application
+
+// 1. Create a file named main.go in your root folder. Declare your package name here.
+package main
+
+import "github.com/yogenp/golang-lessons/internals/1.basics/variables"
+
+// 2. import packages here. If you are importing an internal package, make sure to run `go mod tidy`
+
+//3. Declare your function here
+
+func main() {
+
+	// call a function from the package
+	// basics.Basics()
+	// base.Base()
+	variables.PrintVariables()
+
+}
+
+// 4. Now, run `go run main.go` in your terminal
+// 5. To compile your program, run `go build main.go`. Then, run `./main`.
