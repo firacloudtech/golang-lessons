@@ -3,7 +3,7 @@
 // 1. Create a file named main.go in your root folder. Declare your package name here.
 package main
 
-import "github.com/yogenp/golang-lessons/internals/1.basics/variables"
+import control "github.com/yogenp/golang-lessons/internals/2.control"
 
 // 2. import packages here. If you are importing an internal package, make sure to run `go mod tidy`
 
@@ -14,7 +14,8 @@ func main() {
 	// call a function from the package
 	// basics.Basics()
 	// base.Base()
-	variables.PrintVariables()
+	//variables.PrintVariables()
+	control.Control()
 
 }
 
