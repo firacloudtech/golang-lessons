@@ -33,4 +33,22 @@ func PrintVariables() {
 	// will throw error
 	//var roomNumber4 int8 = 128
 
+	// 3. Float
+
+	const longitude = 24.806078
+
+	// 0.2f used to print 2 significant figures
+	fmt.Printf("FLOAT, %0.2f\n", longitude)
+
+	// 4. String, runes
+
+	var text string = "Hello"
+	fmt.Printf("String, %v\n", text)
+
+	// 5. boolean values
+
+	var isTrue bool = true
+	isFalse := false
+	fmt.Printf("bool, %v, %v\n", isTrue, isFalse)
+
 }
